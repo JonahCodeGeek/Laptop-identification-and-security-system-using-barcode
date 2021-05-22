@@ -1,0 +1,197 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="content.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="sliding_images.css">
+  <title>Homepage</title>
+</head>
+
+<body>
+
+  <!--nav start-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Debre beriahn universty</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="col-auto">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contuct us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Log out</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--nav end-->
+
+
+  <!--autosliding image start-->
+  <div class="Slider_board">
+    <div class="slide_ammounts">
+      <dive class="imagecontainer"></dive>
+      <dive class="imagecontainer"></dive>
+      <dive class="imagecontainer"></dive>
+      <dive class="imagecontainer"></dive>
+      <dive class="imagecontainer"></dive>
+    </div>
+  </div>
+  <!--autosliding image end-->
+  <div class="texts">
+    <h1>Stay Safe and Be Smart </h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit bresse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit bresse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+      sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+  </div>
+  <div class="content">
+    <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#loginUserForm">Login User</button><br>
+    <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#loginAdminForm">Login Admin</button>
+  </div>
+
+
+
+  <!--loginpage userForm start-->
+  <div class="modal fade" id="loginUserForm">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+          </button>
+          <h4 class="modal-title text-center w-100 font-weight-bold ">Sign in User</h4>
+        </div>
+        <form action="login.php" method="post">
+          <div class="modal-body mx-5">
+
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" class="form-control" id="username" name="Username" required/>
+
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" name="Password" required/>
+              <small id="emailHelp" class="form-text text-muted">Do not share your password with anyone</small>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="Remember" />
+              <label class="form-check-label" for="Remember">Remember me</label>
+              <a href="#">
+                <p class="text-right"></p> Forgot password ?
+              </a>
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary">Login</button>
+          </div>
+          <div class="card-footer">
+            <center>
+              <small>&copy; Debreberehan University</small>
+            </center>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--loginpage userForm  end-->
+
+  <!--loginpage AdminForm start-->
+
+  <div class="modal fade" id="loginAdminForm">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+          </button>
+          <h4 class="modal-title text-center w-100 font-weight-bold ">Sign in Admin</h4>
+        </div>
+        <form action="" method=" ">
+          <div class="modal-body mx-5">
+
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" class="form-control" id="username" name="Username" required/>
+
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" name="Password" required/>
+              <small id="emailHelp" class="form-text text-muted">Do not share your password with anyone</small>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="Remember"/>
+              <label class="form-check-label" for="Remember">Remember me</label>
+              <a href="#">
+                <p class="text-right"></p> Forgot password ?
+              </a>
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary">Login</button>
+          </div>
+          <div class="card-footer">
+            <center>
+              <small>&copy; Debreberehan University</small>
+            </center>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- footer Start -->
+  <footer class="footer">
+    <hr />
+    <div class="row">
+      <div class="col-sm">
+        <p class="text-center">&copy; 2021 Debreberehan University Dev Team | All rights reserved | Terms of service | privacy</p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+
+
+  <!--loginpage AdminForm start-->
+
+
+
+  <!-- Optional JavaScript -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

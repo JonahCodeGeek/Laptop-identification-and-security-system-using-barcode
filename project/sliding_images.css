@@ -1,0 +1,95 @@
+#body
+*{
+  margin: 0px;
+  padding: 0px;
+
+
+}
+
+.Slider_board{
+  width: 100%;
+  height: 480px;
+  background: #525252;
+  overflow-x: hidden;
+  border-style:hidden;
+  box-shadow: 5px 5px 10px black;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+}
+.slide_ammounts{
+  width: 500%;
+  height:480px;
+  background:blue;
+  animation-name: Slider;
+  animation-iteration-count: infinite;
+  animation-duration:20s;
+  animation-delay: 2s;
+  border-radius: 5px;
+}
+.imagecontainer{
+  height: 480px;
+  width: 20%;
+  background-color:grey;
+  float: left;
+  background-size:cover;
+  border-radius: 5px;
+}
+.imagecontainer:nth-child(1){
+  background: blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.imagecontainer:nth-child(2){
+  background: brown;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imagecontainer:nth-child(3){
+  background: pink;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.imagecontainer:nth-child(4){
+  background: green;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.imagecontainer:nth-child(5){
+  background: lightblue;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+
+@keyframes Slider
+{
+  12.5%{
+    margin-left: -100%;
+  }
+  25%{
+    margin-left: -100%;
+  }
+  37.5%{
+    margin-left: -200%;
+  }
+  50%{
+    margin-left: -200%;
+  }
+  62.5%{
+    margin-left: -300%;
+  }
+  75%{
+    margin-left: -300%;
+  }
+  87.5%{
+    margin-left: -400%;
+  }
+  100%{
+    margin-left: -400%;
+  }
+
+}

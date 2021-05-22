@@ -1,0 +1,27 @@
+#body
+*{
+  margin: 0px;
+  padding: 0px;
+
+
+}
+.bg-dark{
+  background-color: #0098d9  !important;
+}
+.navbar-brand{
+  font-weight: bold;
+  font-family:cursive;
+  font-size: 28px;
+
+}
+.navbar-dark .navbar-nav .nav-link{
+  font-weight:700;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-item{
+  margin: 0 15px;
+}
+.content p{
+  color: #e89c71;
+}
